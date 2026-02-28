@@ -3,12 +3,12 @@ import { IoBeerOutline } from "react-icons/io5";
 
 const Iconos = () => {
   return (
-    <ul className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
+    <ul className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 my-5">
       <li style={{ "--i": "#f85b5b", "--j": "#9441f3" }}>
         <a href="https://www.instagram.com/v.a_valhalla/"
         target="_blank"
-        rel="noopener noreferrer">
-        <span className="icon"><FaInstagram/></span>
+        rel="noopener noreferrer" className="">
+        <span className="icon "><FaInstagram/></span>
         <span className="title">Instagram</span>
         </a>
       </li>
