@@ -25,6 +25,12 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0), #000000);
 	}
 
-  .logo{
-    width: 40%;
+  .logo {
+  width: 25vw;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 75vw;
   }
+}
