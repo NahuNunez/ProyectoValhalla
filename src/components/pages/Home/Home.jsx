@@ -1,4 +1,4 @@
-import { Container, Image } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import FondoWaves from "./fondo";
 import Iconos from "./Iconos";
 import "/src/components/pages/Home/Iconos.css"
@@ -18,8 +18,10 @@ const Home = () => {
     </Container>
 
     <Container className="d-flex justify-content-center pt-5">
-      <h2 className="text-white display-6">Seguinos!</h2> 
-      <Iconos/>
+      <Row className="d-flex justify-content-between ">
+        <h2 className="text-white display-6 text-center mb-5">Seguinos!</h2>
+        <Iconos/>
+      </Row>
     </Container>
     
   </>
