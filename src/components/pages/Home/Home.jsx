@@ -1,6 +1,6 @@
 import { Container, Image } from "react-bootstrap";
 import FondoWaves from "./fondo";
-import Iconos from "./iconos";
+import Iconos from "./Iconos";
 import "/src/components/pages/Home/Iconos.css"
 
 const Home = () => {
