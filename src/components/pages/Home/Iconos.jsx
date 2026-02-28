@@ -15,7 +15,6 @@ const Iconos = () => {
 
       <li style={{ "--i": "#54be5d", "--j": "#a6ecb5" }} className="mx-5">
         <a href="https://wa.me/5493815986888"
-        rel="noopener noreferrer" 
         ><span className="icon"><FaWhatsapp/></span>
         <span className="title">Whatsapp</span></a>
       </li>
