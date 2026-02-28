@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 //import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './components/pages/Home/Home.js'
+import Home from './components/pages/Home/Home'
 
 
 function App() {
