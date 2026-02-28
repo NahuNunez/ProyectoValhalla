@@ -14,7 +14,7 @@ const Home = () => {
     </Container>
 
     <Container className="mb-5">
-      <h1 className="display-5 text-white text-center">Pronto podrás ver todo lo que te ofrecemos...</h1>
+      <h1 className="display-5 fs-2 text-white text-center  ">Pronto podrás ver todo lo que te ofrecemos...</h1>
     </Container>
 
     <Container className="pt-5">

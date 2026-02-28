@@ -34,3 +34,9 @@
     width: 75vw;
   }
 }
+
+@media (min-width: 576px) {
+  .fs-sm-5 {
+    font-size: 1.25rem;
+  }
+}
