@@ -1,23 +1,25 @@
-import React from 'react'
-import { motion, useMotionValue } from "framer-motion"
+import { useEffect } from "react";
 
 
-const home = () => {
-    const mouseX = useMotionValue(0)
-    const mouseY = useMotionValue(0)
+
+const Home = () => {
+    useEffect(() => {
+    const handleMouseMove = (e) => {
+      document.body.style.setProperty("--x", `${e.clientX}px`);
+      document.body.style.setProperty("--y", `${e.clientY}px`);
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
 
   return (
-    <motion.div className="w-screen h-screen bg-black"
-      onMouseMove={(e) => {
-        mouseX.set(e.clientX);
-        mouseY.set(e.clientY);
-      }}
-      style={{
-        background: `radial-gradient(circle at ${mouseX.get()}px ${mouseY.get()}px,
-         rgba(255,255,255,0.2), black 40%)`,
-      }}
-    />
+    
+    <> 
+    <h1 className="display-2 text-white text-center"> </h1>
+    </>
+   
   )
 }
 
-export default home
+export default Home
