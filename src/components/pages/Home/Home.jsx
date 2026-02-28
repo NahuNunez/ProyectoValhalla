@@ -2,6 +2,7 @@ import { Container, Image } from "react-bootstrap";
 import FondoWaves from "./fondo";
 import Iconos from "./Iconos";
 import "/src/components/pages/Home/Iconos.css"
+import logo1 from "../../../assets/logo-png.png"
 
 const Home = () => {
     
@@ -9,7 +10,7 @@ const Home = () => {
   <>
     <FondoWaves/>
     <Container className="d-flex justify-content-center align-items-center vh-75 pt-5"> 
-      <Image src="/src/assets/logo-png.png" className="logo"/>
+      <Image src={logo1} className="logo"/>
     </Container>
 
     <Container className="mb-5">
