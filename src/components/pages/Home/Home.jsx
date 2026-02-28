@@ -9,7 +9,7 @@ const Home = () => {
   <>
     <FondoWaves/>
     <Container className="d-flex justify-content-center align-items-center vh-75 pt-5"> 
-      <Image src="/src/assets/logo-png.png" className="logo "/>
+      <Image src="/src/assets/logo-png.png" className="logo"/>
     </Container>
 
     <Container className="mb-5">
