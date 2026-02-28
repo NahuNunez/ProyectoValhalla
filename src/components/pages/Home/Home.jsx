@@ -17,7 +17,7 @@ const Home = () => {
       <h1 className="display-5 text-white text-center">Pronto podrás ver todo lo que te ofrecemos...</h1>
     </Container>
 
-    <Container className="d-flex justify-content-center pt-5">
+    <Container className="pt-5">
       <Row className="d-flex justify-content-between ">
         <h2 className="text-white display-6 text-center mb-5">Seguinos!</h2>
         <Iconos/>
