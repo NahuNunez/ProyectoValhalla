@@ -1,9 +1,9 @@
-import { Container, Image } from "react-bootstrap";
+/* import { Container, Image } from "react-bootstrap";
 import FondoWaves from "./fondo";
 import Iconos from "./iconos";
 import "/src/components/pages/Home/Iconos.css"
 
-const Home = () => {
+const Homes = () => {
     
   return (
   <>
@@ -26,4 +26,5 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Homes; */
+
